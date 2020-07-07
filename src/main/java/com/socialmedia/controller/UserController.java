@@ -1,8 +1,7 @@
-package com.socialmedia.controller.implementations;
+package com.socialmedia.controller;
 
-import com.socialmedia.controller.interfaces.IUserController;
 import com.socialmedia.model.User;
-import com.socialmedia.service.interfaces.IUserService;
+import com.socialmedia.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

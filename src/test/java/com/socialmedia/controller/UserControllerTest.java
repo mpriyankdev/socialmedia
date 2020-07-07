@@ -2,7 +2,7 @@ package com.socialmedia.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.socialmedia.model.User;
-import com.socialmedia.service.implementations.UserService;
+import com.socialmedia.service.UserService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

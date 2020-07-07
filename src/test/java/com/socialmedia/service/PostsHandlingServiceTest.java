@@ -1,9 +1,8 @@
 package com.socialmedia.service;
 
 import com.socialmedia.model.Post;
-import com.socialmedia.repository.implementations.PostsRepository;
-import com.socialmedia.repository.implementations.UsersRepository;
-import com.socialmedia.service.implementations.PostsHandlingService;
+import com.socialmedia.repository.PostsRepository;
+import com.socialmedia.repository.UsersRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;

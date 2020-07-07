@@ -2,10 +2,7 @@ package com.socialmedia.service;
 
 
 import com.socialmedia.model.Post;
-import com.socialmedia.repository.implementations.UserPostsHandlingRepository;
-import com.socialmedia.service.implementations.FollowerFolloweeHandlingService;
-import com.socialmedia.service.implementations.NewsFeedHandlingService;
-import com.socialmedia.service.implementations.PostsHandlingService;
+import com.socialmedia.repository.UserPostsHandlingRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;

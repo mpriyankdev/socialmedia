@@ -1,4 +1,4 @@
-package com.socialmedia.repository.interfaces;
+package com.socialmedia.repository;
 
 import com.socialmedia.model.Post;
 

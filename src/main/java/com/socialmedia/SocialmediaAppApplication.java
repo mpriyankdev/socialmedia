@@ -1,10 +1,10 @@
 package com.socialmedia;
 
 import com.socialmedia.model.User;
-import com.socialmedia.service.implementations.FollowerFolloweeHandlingService;
-import com.socialmedia.service.implementations.NewsFeedHandlingService;
-import com.socialmedia.service.implementations.PostsHandlingService;
-import com.socialmedia.service.implementations.UserService;
+import com.socialmedia.service.FollowerFolloweeHandlingService;
+import com.socialmedia.service.NewsFeedHandlingService;
+import com.socialmedia.service.PostsHandlingService;
+import com.socialmedia.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,10 +12,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
-@EnableSwagger2
 public class SocialmediaAppApplication implements CommandLineRunner {
 
     private final Logger LOGGER = LoggerFactory.getLogger(this.getClass().getSimpleName());
@@ -45,7 +43,7 @@ public class SocialmediaAppApplication implements CommandLineRunner {
 
             LOGGER.info("\n\n******************STARTING APPLICATION TEST ************************************\n\n");
 
-            LOGGER.info("\n\nCreating Dummy Users : priyank ,sachin, shivangi and aditya\n");
+            LOGGER.info("\n\nCreating Dummy Users : priyank ,sachin, shivangi and virat\n");
             userService.createUser(User.builder().userId("priyank").userName("priyank maheshwari").build());
             userService.createUser(User.builder().userId("shivangi").userName("shivangi maheshwari").build());
             userService.createUser(User.builder().userId("sachin").userName("sachin tendulkar").build());

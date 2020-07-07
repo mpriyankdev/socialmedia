@@ -1,8 +1,7 @@
 package com.socialmedia.controller;
 
 import com.socialmedia.model.Post;
-import com.socialmedia.service.implementations.NewsFeedHandlingService;
-import com.socialmedia.service.interfaces.INewsFeedHandlingService;
+import com.socialmedia.service.NewsFeedHandlingService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

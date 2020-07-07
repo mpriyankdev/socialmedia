@@ -1,8 +1,7 @@
 package com.socialmedia.service;
 
 import com.socialmedia.model.User;
-import com.socialmedia.repository.implementations.UsersRepository;
-import com.socialmedia.service.implementations.UserService;
+import com.socialmedia.repository.UsersRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

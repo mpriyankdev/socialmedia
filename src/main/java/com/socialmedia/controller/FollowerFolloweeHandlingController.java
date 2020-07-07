@@ -1,7 +1,6 @@
-package com.socialmedia.controller.implementations;
+package com.socialmedia.controller;
 
-import com.socialmedia.controller.interfaces.IFollowerFolloweeHandlingController;
-import com.socialmedia.service.interfaces.IFollowerFolloweeHandlingService;
+import com.socialmedia.service.IFollowerFolloweeHandlingService;
 import io.swagger.annotations.Api;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

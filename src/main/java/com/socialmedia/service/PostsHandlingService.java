@@ -1,11 +1,10 @@
-package com.socialmedia.service.implementations;
+package com.socialmedia.service;
 
 import com.socialmedia.exception.NotFoundException;
 import com.socialmedia.model.Post;
-import com.socialmedia.repository.interfaces.IPostsRepository;
-import com.socialmedia.repository.interfaces.IUserPostsHandlingRepository;
-import com.socialmedia.repository.interfaces.IUsersRepository;
-import com.socialmedia.service.interfaces.IPostsHandlingService;
+import com.socialmedia.repository.IPostsRepository;
+import com.socialmedia.repository.IUserPostsHandlingRepository;
+import com.socialmedia.repository.IUsersRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

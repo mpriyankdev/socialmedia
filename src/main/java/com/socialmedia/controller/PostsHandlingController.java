@@ -1,8 +1,7 @@
-package com.socialmedia.controller.implementations;
+package com.socialmedia.controller;
 
-import com.socialmedia.controller.interfaces.IPostsHandlingController;
 import com.socialmedia.model.Post;
-import com.socialmedia.service.interfaces.IPostsHandlingService;
+import com.socialmedia.service.IPostsHandlingService;
 import io.swagger.annotations.Api;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

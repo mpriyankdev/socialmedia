@@ -1,8 +1,7 @@
-package com.socialmedia.service.implementations;
+package com.socialmedia.service;
 
-import com.socialmedia.repository.interfaces.IFollowerFolloweeHandlingRepository;
-import com.socialmedia.repository.interfaces.IUserPostsHandlingRepository;
-import com.socialmedia.service.interfaces.IFollowerFolloweeHandlingService;
+import com.socialmedia.repository.IFollowerFolloweeHandlingRepository;
+import com.socialmedia.repository.IUserPostsHandlingRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

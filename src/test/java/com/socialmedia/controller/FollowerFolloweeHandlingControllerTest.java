@@ -1,6 +1,6 @@
 package com.socialmedia.controller;
 
-import com.socialmedia.service.implementations.FollowerFolloweeHandlingService;
+import com.socialmedia.service.FollowerFolloweeHandlingService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

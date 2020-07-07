@@ -1,4 +1,4 @@
-package com.socialmedia.service.interfaces;
+package com.socialmedia.service;
 
 import com.socialmedia.model.User;
 

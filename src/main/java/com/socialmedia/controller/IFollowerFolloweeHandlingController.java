@@ -1,4 +1,4 @@
-package com.socialmedia.controller.interfaces;
+package com.socialmedia.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
