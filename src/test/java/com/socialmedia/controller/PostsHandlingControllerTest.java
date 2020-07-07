@@ -1,7 +1,7 @@
 package com.socialmedia.controller;
 
 import com.socialmedia.model.Post;
-import com.socialmedia.service.PostsHandlingService;
+import com.socialmedia.service.impl.PostsHandlingService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

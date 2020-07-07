@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Api(value = "follow-followee")
 @RestController
-public class FollowerFolloweeHandlingController implements IFollowerFolloweeHandlingController {
+public class FollowerFolloweeHandlingController {
 
     private final Logger LOGGER = LoggerFactory.getLogger(this.getClass().getSimpleName());
     @Autowired
     private IFollowerFolloweeHandlingService followerFolloweeHandlingService;
 
-    @Override
+
     @PostMapping("/follow")
     public ResponseEntity<String> follow(@RequestParam(value = "followerId", required = true) final String followerId, @RequestParam(value = "followeeId", required = true) final String followeeId) {
 
@@ -27,7 +27,7 @@ public class FollowerFolloweeHandlingController implements IFollowerFolloweeHand
         return ResponseEntity.accepted().body(followerId.concat(" followed ").concat(followeeId));
     }
 
-    @Override
+
     @PostMapping("/unfollow")
     public ResponseEntity<String> unfollow(@RequestParam(value = "followerId", required = true) final String followerId, @RequestParam(value = "followeeId", required = true) final String followeeId) {
         followerFolloweeHandlingService.unfollow(followerId, followeeId);

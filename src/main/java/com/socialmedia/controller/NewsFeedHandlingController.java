@@ -17,14 +17,14 @@ import java.util.List;
 @Api(value = "topNPosts")
 @RestController
 @RequestMapping("/feed")
-public class NewsFeedHandlingController implements INewsFeedHandlingController {
+public class NewsFeedHandlingController {
 
     private final Logger LOGGER = LoggerFactory.getLogger(this.getClass().getSimpleName());
 
     @Autowired
     private INewsFeedHandlingService newsFeedHandlingService;
 
-    @Override
+
     @GetMapping
     public ResponseEntity<List<Post>> newsFeed(@RequestParam(value = "userId", required = true) final String userId, @RequestParam(value = "limit", required = true) final Integer limit) {
 

@@ -1,6 +1,7 @@
 package com.socialmedia.service;
 
-import com.socialmedia.repository.FollowerFolloweeHandlingRepository;
+import com.socialmedia.repository.impl.FollowerFolloweeHandlingRepository;
+import com.socialmedia.service.impl.FollowerFolloweeHandlingService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

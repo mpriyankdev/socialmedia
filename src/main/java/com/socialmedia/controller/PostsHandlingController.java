@@ -15,17 +15,17 @@ import org.springframework.web.bind.annotation.RestController;
 import java.net.URI;
 import java.net.URISyntaxException;
 
-@Api(value = "createPost")
+@Api(value = "post-creation")
 @RestController
 @RequestMapping("/post")
-public class PostsHandlingController implements IPostsHandlingController {
+public class PostsHandlingController {
 
     private final Logger LOGGER = LoggerFactory.getLogger(this.getClass().getSimpleName());
 
     @Autowired
     private IPostsHandlingService postsHandlingService;
 
-    @Override
+
     @PostMapping
     public ResponseEntity<Post> handlePost(@RequestParam(value = "userId", required = true) final String userId,
                                            @RequestParam(value = "postId", required = true) final String postId,

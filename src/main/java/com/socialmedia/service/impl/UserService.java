@@ -1,7 +1,8 @@
-package com.socialmedia.service;
+package com.socialmedia.service.impl;
 
 import com.socialmedia.model.User;
 import com.socialmedia.repository.IUsersRepository;
+import com.socialmedia.service.IUserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

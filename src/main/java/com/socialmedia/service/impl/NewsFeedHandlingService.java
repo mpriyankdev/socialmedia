@@ -1,7 +1,10 @@
-package com.socialmedia.service;
+package com.socialmedia.service.impl;
 
 import com.socialmedia.model.Post;
 import com.socialmedia.repository.IUserPostsHandlingRepository;
+import com.socialmedia.service.IFollowerFolloweeHandlingService;
+import com.socialmedia.service.INewsFeedHandlingService;
+import com.socialmedia.service.IPostsHandlingService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
